@@ -79,9 +79,23 @@ button {
 
 .heart {
   position: fixed;
-  font-size: 4.5rem; /* BIG hearts */
-  animation: explode 1.8s ease-out forwards;
+  font-size: 5.8rem; /* MUCH BIGGER hearts */
+  animation: explode 2.2s ease-out forwards;
 }
+
+.rain-heart {
+  position: fixed;
+  top: -60px;
+  font-size: 4.8rem;
+  animation: fall linear forwards;
+}
+@keyframes fall {
+  to {
+    transform: translateY(120vh);
+    opacity: 0;
+  }
+}
+
 
 @keyframes explode {
   to {
