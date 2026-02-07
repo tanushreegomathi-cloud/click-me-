@@ -6,11 +6,8 @@ body {
   margin: 0;
   height: 100vh;
   font-family: 'Georgia', serif;
-  background: linear-gradient(
-    135deg,
-    #922B25 0%,
-    #6d1b18 45%,
-    #BED7E3 100%
+  background: #922B25;
+
   );
   color: #E6EEF2;
   overflow: hidden;
